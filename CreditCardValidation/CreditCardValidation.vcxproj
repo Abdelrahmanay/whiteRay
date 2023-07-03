@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c7c9a267-eb24-4b02-9e58-234c60acf42f}</ProjectGuid>
-    <RootNamespace>LearnProj1</RootNamespace>
+    <ProjectGuid>{c39b9a3e-f528-4376-93a6-2288faece597}</ProjectGuid>
+    <RootNamespace>CreditCardValidation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LearnProj1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LearnProj1.h" />
+    <ClCompile Include="CreditCardValidation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
